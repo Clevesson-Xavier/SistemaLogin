@@ -69,6 +69,18 @@ form{
     background-color: #090979;
 }
 
+a{
+    font-size: 0.9em;
+    color: #002fff;
+    text-decoration:none;
+}
+
+.acessar{
+        font-size: 0.99em;
+        color: #ffffff;
+        text-decoration:none;
+}
+
 p{
     font-size: 0.9em;
     columns: #666;

@@ -10,27 +10,25 @@
 <body>
     <div class="pagina">
         <div class="pag-login">
-            <form method="POST" class="form-login">
+            <form class="form-login" autocomplete="off">
                 <h2>Fazer login</h2>
                 <p>Digite seus dados para acessar.</p>
                 <label for="email">E-mail</label>
-                <input class="campo" type="email" placeholder="Digite aqui seu email"/>
+                <input id ="email" class="campo" type="text" placeholder="Digite aqui seu email"/>
                 <small id="textEmail"></small>
 
                 <label for="senha">Senha</label>
-                <input class="campo" type="password"  placeholder="Digite aqui seu Email"/>
+                <input id ="password" class="campo" type="password"  placeholder="Digite aqui seu Email"/>
                 <small id="textEmail"></small>
 
                 <a href="/">Esqueci a senha!</a>
-                <input class="btn" type="submit" value="Enviar" class="btn" />
+                <button class="btn" type="submit">Acessar</button>
                 <small id="textForm"></small>
                 <p>Ainda não tem conta?<a href="#">Crie uma nova.</a></p>
             </form>
         </div>
     </div>
 
-    <script type="text/javascript" src="main.js">
-
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
